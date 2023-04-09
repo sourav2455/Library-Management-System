@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.genre_name{
+    font-size: 31px;
+    font-family: "Ubuntu Mono", monospace;
+    margin-top: 0px;
+   align-items: center;
+
+}
+.section, .left, .paras, .genre_name{
+ background-color: #fafafa;
+}

@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+body {
+  font-family: "Rubik", cursive;
+
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: rgb(16, 95, 215);
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.navbar {
+  color: pink;
+}
+
+.max-height {
+  min-height: calc(100vh - 100px);
+  background: linear-gradient(rgba(249, 229, 148, 0), rgba(249, 229, 148, 0)),
+    url("img/Cse.jpg") center/cover fixed no-repeat;
+  position: relative;
+}
+.banner {
+  color: white;
+  margin-top: -4rem;
+}
+.banner-title {
+  color: rgb(161, 159, 159);
+  font-size: 4rem;
+}
+.banner-link {
+  font-size: 1.5rem;
+  color: black;
+  border: 0.2rem solid black;
+}
+.banner-link:hover {
+  background: black;
+  color: rgb(16, 95, 215);
+}
+.navbar-brand img {
+  width: 91px;
+  height: 57px;
+}
+.firstsection {
+  height: 88vh;
+}
+
+.box-main {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Kaushan Script", cursive;
+  height: 80%;
+}
+.firsthalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondhalf {
+  width: 30%;
+}
+
+.text-big {
+  font-size: 41px;
+}
+.text-small {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border-radius: 8px;
+  background: none;
+  color: rgb(16 91 206);
+  border: 2px solid #7890b1;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.buttons :hover {
+  background: rgb(16, 95, 215);
+  transition-delay: 0.3s;
+}
+.btn-sm {
+  padding: 6px 10px;
+  /* vertical-align: middle; */
+  font-size: 14px;
+}
+.btndark {
+  color: black;
+  border: 2px solid black;
+}
+
+.section {
+  height: 40j0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 89%;
+  margin: auto;
+  font-family: "Kaushan Script", cursive;
+}
+
+.Left {
+  flex-direction: row-reverse;
+}
+
+.paras {
+  padding: 0 65px;
+}
+.sectiontag {
+  padding: 16px 0;
+}
+.sectionSubTag {
+  font-family: "Kaushan Script", cursive;
+}
+
+.thumbnail img {
+  margin-top: 49px;
+  border: none;
+  border-radius: 14px;
+  height: 219px;
+  width: 228px;
+}
+
+.text-center {
+  text-align: center;
+  padding: 12px 0px 3px 0px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+}
+.linkbtn {
+  margin-left: 92%;
+}
+.form {
+  max-width: 505px;
+  margin: 12px auto;
+  height: 700px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+.form-input {
+  border: none;
+  margin: 14px 0;
+  padding: 5px 3px;
+  width: 100%;
+  font-size: 19px;
+
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.form button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background: rgb(16, 95, 215);
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.form button :hover {
+  background: aqua;
+  transition-delay: 0.1s;
+}
+
+.text-footer {
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px 0px;
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.books-info {
+  margin-bottom: 50px;
+}
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: none;
+}
+.line {
+  width: 33px;
+  background-color: #ecf0f3;
+  height: 4px;
+  margin: 5px 3px;
+}
+.akash {
+  width: 91px;
+}
+.navbar-nav {
+  margin-left: 450px;
+  margin-bottom: -17px;
+}
+.navbar-nav a {
+  color: rgb(16, 95, 215);
+}
+.max-height {
+  min-height: 100vh;
+}
+
+.book-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnail img {
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 13px;
+  width: 309px;
+  height: 499px;
+}
+
+/* .thumbnail img:hover {
+  -webkit-filter: blur(4px);  
+  filter: blur(4px);
+} */
+
+@media only screen and (max-width: 1120px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .linkbtn {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+}
+.iss-btn {
+  position: absolute;
+  right: 10px;
+  margin-top: 400px;
+}
